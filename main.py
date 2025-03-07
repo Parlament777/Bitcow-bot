@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 import asyncio
 import os
 
-TOKEN = os.getenv("8096658159:AAEoSCZGwTcveAo6BZif1jX2yFFuwvcqprI")  # Токен из переменных окружения
+TOKEN = os.getenv("TOKEN")  # Токен из переменных окружения
 AUTH_URL = "https://laxtube.com/page/"  # Ссылка на авторизацию
 
 bot = Bot(token=TOKEN)
